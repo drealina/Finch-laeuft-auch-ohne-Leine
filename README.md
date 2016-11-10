@@ -19,7 +19,7 @@ Snap! ist eine blockbasierte Programmiersprache und ist zugleich eine Scratch Mo
 Genau so wie Scratch ist Snap! weitgehend eine befehlsgebende Programmiersprache bei der ein Programm aus einer Anregung von Anweisung besteht, die vorgeben, in welcher Reihenfolge die Aktionen ausgeführt werden.
 Snap! basiert nicht auf den Quellende von Scratch selbst, sondern wurde komplett neu programmiert,  um nun die eigenen Projekte speichern zu können sowie überall online an seinen Projekten arbeiten kann. Ebenfalls muss Snap! nicht mehr installiert werden, sondern läuft als JavaScript-Anwendung im Browser (http://snap.berkeley.edu/snapsource/snap.html). 
 
-![bsp snapplogo](snapplogo.png)
+![bsp snapplogo](800px-Logo5.png)
 
 #### FinchRobot
 
