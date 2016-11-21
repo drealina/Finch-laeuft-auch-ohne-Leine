@@ -37,3 +37,7 @@ Der FinchRobot ist ein kleiner Roboter, der es ermöglicht, geschriebene Codes a
 Allgemein ausgedrückt ist der Raspberry Pi ein Mini-Computer. Da dieser Einplatinencomputer ursprünglich für Schüler und Studenten gedacht war, ist dieser mit rund 35 Euro sehr kostengünstig. Ein Raspberry Pi ermöglicht den Erstkontakt zu Linux, Shell Scripting, Programmieren sowie Physical Computing. Zusätzlich lernt man nebenbei viel über die grundsätzlichen Funktionsweisen von Computern. 
 
 ![bsp Raspberry Pi](images.jpg)
+
+
+#### Dokumentation über unsere Arbeit
+
