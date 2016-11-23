@@ -30,6 +30,8 @@ Der FinchRobot ist ein kleiner Roboter, der es ermöglicht, geschriebene Codes a
 
 
 
+
+
 ###<a name="2"></a> Der Weg zum kabellosen Finch
 
 #### Raspberry Pi
