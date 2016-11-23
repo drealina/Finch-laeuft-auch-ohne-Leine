@@ -68,3 +68,6 @@ Ein Raspberry Pi benötigt ein Betriebsystem, um erfolgreich starten zu können.
 
 
 Nun waren wir aufgefordert, die empfohlene Linux-Distribution Debian basierend auf Raspbian auszuwählen, welche sich bereits auf der beschriebenen SD-Karte befindet. Die Installation nahm einen langen Zeitraum in Anspruch und wir drehten für wenige Stunde unsere Däume. Währenddessen wurde uns der Fortschritt des Installationsprozess angezeigt.
+
+
+![bsp Raspberry Pi Installation](f573902075c44e29bcfd376383f1ea35.media.500x375.png)
