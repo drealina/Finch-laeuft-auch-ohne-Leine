@@ -97,3 +97,13 @@ Er löste unser Problem, indem er in der Datei „/etc/wpa_supplicant/wpa_suppli
 ![bsp DateiÄnderung ](Bildschirmfoto 2016-11-25 um 16.05.49.png)
 
 Der Inhalt dieser Datei wird beispielsweise auf dieser Internetseite beschrieben https://linux.die.net/man/5/wpa_supplicant.conf. 
+
+Durch die Änderung wurde ebenfalls eine in den IP-Netzwerkschnittstellen vorgenommen. Unsern Raspberry Pi wurde eine IP-Adresse zugewiesen. Wenn nun der Befehl „sudo_ wpa_supplicant -i plan -c /etc/wpa_supplicant/wpa_supplicant.conf“ in das Terminal eingeben wird, kommuniziert der Pi mit dem Wlan des Schulnetzes. Die Freude war groß, als wir die positive Nachricht überwiesen bekommen haben!
+
+Wir wollten es gleich selber ausprobieren. Na toll… Wir haben keine Internetverbindung. Die Freude war von null auf hundert verschwunden. Was haben wir falsch gemacht. Herr Buhl meinte doch, es würde funktionieren. 
+
+… keine Ahnung welche Einstellung wir vorgenommen haben….
+
+Endlich haben wir es geschafft. Erleichterung pur. Nun konnten wir endlich ungestört weiterarbeiten. 
+Um den FinchRobot nun kabellos zu bekommen, war es nötig auch den Rasbperry Pi aus der Ferne steuern zu können.
+Da uns nun die IP-Adresse bekannt war, konnten wir Putty unter Windows öffnen und uns in den Raspberry Pi einloggen. Um nun auch Dateien auf den Mini-Computer zu installieren, ist dies einfacher, wenn die Software auf einen Host-Computer heruntergeladen wird und dann über das Programm (in unserem Fall) „WinSCP“ auf den Pi zu übertragen. Zudem benötigten wir eine Remote-Desktop-Software, um den Desktop des Raspberry Pi von unserem Host-Computer anzuschauen. Dafür verwendeten wir TightVNC. Um dieses Programmm zu installieren gaben wir folgenden Befehl in Putty ein „sudo apt-get install tightvncserver herunterladen“. Wenn wir den Remote-Desktops zulassen wollen, gaben wir den Befehl „Tightvncserver“ ein. Beim ersten Starten des Remote-Desktops wurden wir aufgefordert, ein Passwort einzugeben und andere Konfigurationsoptionen einzurichten. Jedes mal wenn wir den Befehl ausführen, wird uns "Neuer 'X' Desktop ist raspberrypi: 1“ angezeigt.
