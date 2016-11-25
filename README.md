@@ -113,3 +113,7 @@ Der nächste Schritt war die Installation und Konfiguration von Java, um den Sna
 Folgend darauf mussten wir eine Konfiguration für FinchRobot durchführen. Dazu mussten wir und sie Birdbrain Technologies Software für den Raspberry pi auf einem host-Computer herunterladen und diese Datei n das Verzeichnis des Raspberry Pi kopieren. Danach mussten wir im Terminal in ~ / BBTechSoftwareForPi wechseln und weitere Kommandos eingeben (siehe Bild)
 
 ![bsp  BBTechSoftwareForPi](InitialConfig.png)
+
+
+
+![bsp  FinchServer](FinchSnapServer.png)
