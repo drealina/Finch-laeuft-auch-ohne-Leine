@@ -121,3 +121,6 @@ Endlich waren wir beim aller letzten Schritt angekommen. Es war eine lange, aufr
 Anschließend mussten wir nur noch die reguläre Seite von Snap! auf einem Computer mit dem gleichen lokalen Netzwerk wie der Raspberry Pi öffnen (http://snap.berkeley.edu/snapsource/snap.html). Der aller letzte Schritt erfolgte mit dem Import einer Datei (https://dl.dropboxusercontent.com/u/9303915/FinchPiSnapBlocks.xml). Diese Datei zogen wir in Snap! und änderten folgend die IP-Adresse im „set“-Block.
 
 Wir haben es geschafft! FinchRobot ist ab sofort kabellos und kann frei „herumlaufen“.
+
+
+###<a name="3"></a> Fazit
