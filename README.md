@@ -88,3 +88,20 @@ Wir gaben den Befehl „ifconfig“ im Terminal ein, um zu schauen, ob unser USB
 
 
 ![bsp Terminal wlan0 Raspberry Pi ](IMG_7707.jpg)
+
+
+
+www.google.de? Fehlanzeige! Der USB-Wireless-Adpater kommuniziert nicht mit dem Schulnetzwerk. Das bedeutet, wir haben keine aktive Internetverbindung. Der Adapter wird vom System erkannt, wird aber nicht in das bestehende Netzwerk eingebunden. Ahnungslosigkeit herrschte in unseren Köpfen. Wie bekommen wir das hin, dass der Raspberry Pi endlich eine Internetverbindung bekommt. Anfangs wurden wir durch das internet nicht schlauer, da wir leider nicht genau wussten, wonach wir suchen sollte. Aus diesem Grund fragten wir Herr Buhl um Hilfe.
+Er löste unser Problem, indem er in der Datei „/etc/wpa_supplicant/wpa_supplicant.conf“ eine Änderung vornahm. 
+
+network={
+ ssid="Unsere_WLAN_SSID"
+ scan_ssid=1
+ key_mgmt=WPA-EAP
+ pairwise=TKIP
+ eap=PEAP
+ identity="iserv login name"
+ password="iserv login password"
+}
+
+Der Inhalt dieser Datei wird beispielsweise auf dieser Internetseite beschrieben https://linux.die.net/man/5/wpa_supplicant.conf. 
