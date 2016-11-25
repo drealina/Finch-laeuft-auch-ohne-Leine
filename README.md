@@ -117,7 +117,7 @@ Folgend darauf mussten wir eine Konfiguration für FinchRobot durchführen. Dazu
 
 ![bsp  BBTechSoftwareForPi](InitialConfig.png)
 
-Endlich waren wir beim aller letzten Schritt angekommen. Es war eine lange, aufregende und wissenswerte Zeit bis dahin. Wir haben sehr viel über den Raspberry Pi gelernt. Der letzte Schritt war die Installation eines Servers, mit dem wir FinchRobot mit der Snap! Programmierumgebung von einem entfernten Computer aus steuern können. Dazu mussten wir den Server auf dem rad-berry Pi starten, indem wir zum Verzeichnis „FinchServer“ im Ordner „BBTechSoftwareforPi“ den Befehl „java -jar FinchServer.jar“ eingegeben haben.
+Endlich waren wir beim aller letzten Schritt angekommen. Es war eine lange, aufregende und wissenswerte Zeit bis dahin. Wir haben sehr viel über den Raspberry Pi gelernt. Der letzte Schritt war die Installation eines Servers, mit dem wir FinchRobot mit der Snap! Programmierumgebung von einem entfernten Computer aus steuern können. Dazu mussten wir den Server auf dem rad-berry Pi starten, indem wir zum Verzeichnis „FinchServer“ im Ordner „BBTechSoftwareforPi“ den Befehl * [Befehl] - java -jar FinchServer.jar eingegeben haben.
 
 ![bsp  FinchServer](FinchSnapServer.png)
 
