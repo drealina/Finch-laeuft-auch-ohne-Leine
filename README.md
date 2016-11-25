@@ -95,13 +95,13 @@ www.google.de? Fehlanzeige! Der USB-Wireless-Adpater kommuniziert nicht mit dem 
 Er löste unser Problem, indem er in der Datei „/etc/wpa_supplicant/wpa_supplicant.conf“ eine Änderung vornahm. 
 
 network={
- ssid="Unsere_WLAN_SSID"
- scan_ssid=1
- key_mgmt=WPA-EAP
- pairwise=TKIP
- eap=PEAP
- identity="iserv login name"
- password="iserv login password"
+  ssid="Unsere_WLAN_SSID"
+  scan_ssid=1
+  key_mgmt=WPA-EAP
+  pairwise=TKIP
+  eap=PEAP
+  identity="iserv login name"
+  password="iserv login password"
 }
 
 Der Inhalt dieser Datei wird beispielsweise auf dieser Internetseite beschrieben https://linux.die.net/man/5/wpa_supplicant.conf. 
