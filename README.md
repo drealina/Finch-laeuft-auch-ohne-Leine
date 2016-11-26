@@ -105,7 +105,7 @@ Durch die Änderung wurde ebenfalls eine in den IP-Netzwerkschnittstellen vorgen
 
 Wir wollten es gleich selber ausprobieren. Na toll… Wir haben keine Internetverbindung. Die Freude war von null auf hundert verschwunden. Was haben wir falsch gemacht. Herr Buhl meinte doch, es würde funktionieren. 
 
-… keine Ahnung welche Einstellung wir vorgenommen haben….
+Schnell realisierten wir, dass bei jedem Neustart des Raspberry Pi diese Einstellung erneut manuell vorgenommen werden müsste. Da dies jedoch für unsere Zwecke eher unpraktisch wäre, suchten wir nach einer Möglichkeit, diese Einstellung bei jedem Neustart automatisch ablaufen zu lassen. Nach kurzer Internetrecherche wustten wir, dass wir in "/etc/network/interfaces" die Zeile "wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf" hinzufügen mussten, welche die Internetverbindung automatisch aufbaute. 
 
 Endlich haben wir es geschafft. Erleichterung pur. Nun konnten wir endlich ungestört weiterarbeiten. 
 Um den FinchRobot nun kabellos zu bekommen, war es nötig auch den Rasbperry Pi aus der Ferne steuern zu können.
@@ -127,3 +127,7 @@ Wir haben es geschafft! FinchRobot ist ab sofort kabellos und kann frei „herum
 
 
 ###<a name="3"></a> Fazit
+
+Es war ein spannendes Projekt, welches uns in die Arbeit mit dem Raspberry Pi einführte und darüber hinaus unsere Programmierfähigkeiten stark ausbaute. 
+Als wir uns für das Projekt entschieden, haben wir nicht erwartet, dass wir die größte Arbeit damit haben werden, eine vernünftige WLAN- Verbindung für den Raspberry Pi aufzubauen. Es gab viele kleine Hürden zu überwinden, einige brachten uns nahezu zum verzweifeln und an manchen Punkten war es recht frustrierend, wenn nichts funktionierte, wie es sollte. Aber gerade diese Rückschläge machten uns umso ehrgeiziger und es um so erfreulicher, wenn nach langer Zeit der Versuche und Zusammenarbeit endlich an sein Ziel gelangt. 
+Alles in allem freuen wir uns auf die weitere Arbeit mit unserem kabellosen Finch.
