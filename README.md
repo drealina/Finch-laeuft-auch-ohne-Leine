@@ -105,7 +105,7 @@ Durch die Änderung wurde ebenfalls eine in den IP-Netzwerkschnittstellen vorgen
 
 Wir wollten es gleich selber ausprobieren. Na toll… Wir haben keine Internetverbindung. Die Freude war von hundert auf null verschwunden. Was haben wir falsch gemacht. Herr Buhl meinte doch, es würde funktionieren. 
 
-Schnell realisierten wir, dass bei jedem Neustart des Raspberry Pi diese Einstellung erneut manuell vorgenommen werden müsste. Da dies jedoch für unsere Zwecke eher unpraktisch wäre, suchten wir nach einer Möglichkeit, diese Einstellung bei jedem Neustart automatisch ablaufen zu lassen. Nach kurzer Internetrecherche wustten wir, dass wir in "/etc/network/interfaces" die Zeile "wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf" hinzufügen mussten, welche die Internetverbindung automatisch aufbaute. 
+Schnell realisierten wir, dass bei jedem Neustart des Raspberry Pi diese Einstellung erneut manuell vorgenommen werden müsste. Da dies jedoch für unsere Zwecke eher unpraktisch wäre, suchten wir nach einer Möglichkeit, diese Einstellung bei jedem Neustart automatisch ablaufen zu lassen. Nach kurzer Internetrecherche wussten wir, dass wir in "/etc/network/interfaces" die Zeile "wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf" hinzufügen mussten, welche die Internetverbindung automatisch aufbaute. 
 
 Endlich haben wir es geschafft. Erleichterung pur. Nun konnten wir endlich ungestört weiterarbeiten. 
 Um den FinchRobot nun kabellos zu bekommen, war es nötig auch den Rasbperry Pi aus der Ferne steuern zu können.
