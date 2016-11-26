@@ -129,5 +129,5 @@ Wir haben es geschafft! FinchRobot ist ab sofort kabellos und kann frei „herum
 ###<a name="3"></a> Fazit
 
 Es war ein spannendes Projekt, welches uns in die Arbeit mit dem Raspberry Pi einführte und darüber hinaus unsere Programmierfähigkeiten stark ausbaute. 
-Als wir uns für das Projekt entschieden, haben wir nicht erwartet, dass wir die größte Arbeit damit haben werden, eine vernünftige WLAN- Verbindung für den Raspberry Pi aufzubauen. Es gab viele kleine Hürden zu überwinden, einige brachten uns nahezu zum verzweifeln und an manchen Punkten war es recht frustrierend, wenn nichts funktionierte, wie es sollte. Aber gerade diese Rückschläge machten uns umso ehrgeiziger und es um so erfreulicher, wenn nach langer Zeit der Versuche und Zusammenarbeit endlich an sein Ziel gelangt. 
-Alles in allem freuen wir uns auf die weitere Arbeit mit unserem kabellosen Finch.
+Als wir uns für das Projekt entschieden, haben wir nicht erwartet, dass wir die größte Arbeit damit haben werden, eine vernünftige WLAN- Verbindung für den Raspberry Pi aufzubauen. Es gab viele kleine Hürden zu überwinden, einige brachten uns nahezu zum Verzweifeln und an manchen Punkten war es recht frustrierend, wenn nichts funktionierte, wie es sein sollte. Aber gerade diese Rückschläge weckten unseren Ehrgeiz und um so erfreulicher war es, als nach langer Zeit der Versuche und Zusammenarbeit endlich unser Ziel erreicht haben. 
+Alles in allem freuen wir uns auf die weitere Arbeit mit unserem kabellosen FinchRobot.
