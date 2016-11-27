@@ -1,6 +1,6 @@
 # Finch läuft auch ohne Leine
 
-Informatikprojekt zum 21.11.2016 von Alina Drechsel und Jonida Kajolli
+Informatikprojekt zum 28.11.2016 von Alina Drechsel und Jonida Kajolli
 
 
 
