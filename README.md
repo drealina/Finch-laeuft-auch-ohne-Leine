@@ -82,7 +82,7 @@ Nun waren wir aufgefordert, die empfohlene Linux-Distribution Debian basierend a
 
 ![bsp Raspberry Pi Installation](hintergundpi.jpeg)
 
-Nach der erfolgreichen Installation ist es notwendig, den Raspberry Pi neu zu starten, um weitere grundlegende Konfigurationen vorzunehmen. Dazu gehören die Konfiguration der Sprache, Zeichensatz, Zeitzone und ein deutsches Tastatur-Layout. Nun war die Grundkonfiguration endlich fertig. Für die Konfiguration von Raspbian existiert ein Konfigurations-Tool unter "Preferences > Raspberry Pi Configuration". Damit haben wir die wichtigen Dinge schnell konfigurieren können, ohne dass wir komplizierte Kommandos im Terminal eingeben mussten. Anschließend starten wir den Raspberry Pi erneut.
+Nach der erfolgreichen Installation ist es notwendig, den Raspberry Pi neu zu starten, um weitere grundlegende Konfigurationen vorzunehmen. Dazu gehören die Konfiguration der Sprache, Zeichensatz, Zeitzone und ein deutsches Tastatur-Layout. Nun war die Grundkonfiguration endlich fertig. Für die Konfiguration von Raspbian existiert ein Konfigurations-Tool unter "Preferences > Raspberry Pi Configuration". Damit haben wir die wichtigen Dinge schnell einstellen können, ohne dass wir komplizierte Kommandos im Terminal eingeben mussten. Anschließend starteten wir den Raspberry Pi erneut.
 
 Um mit dem Raspberry Pi weiter arbeiten zu können, mussten wir alle im Betriebsystem enthaltenen Pakete aktualisieren, indem wir im Terminal die Kommandos "sudo apt-get update“ und nach erfolgreichen Durchlauf dann "sudo apt-get upgrade“ eingaben. Dies kostete uns ein weiters mal lange Zeit.
 
@@ -94,14 +94,14 @@ Wir gaben den Befehl „ifconfig“ im Terminal ein, um zu schauen, ob unser USB
 
 
 
-www.google.de? Fehlanzeige! Der USB-Wireless-Adpater kommuniziert nicht mit dem Schulnetzwerk. Das bedeutet, wir haben keine aktive Internetverbindung. Der Adapter wird vom System erkannt, wird aber nicht in das bestehende Netzwerk eingebunden. Ahnungslosigkeit herrschte in unseren Köpfen. Wie bekommen wir das hin, dass der Raspberry Pi endlich eine Internetverbindung bekommt. Anfangs wurden wir durch das internet nicht schlauer, da wir leider nicht genau wussten, wonach wir suchen sollten. Aus diesem Grund fragten wir Herr Buhl um Hilfe.
+www.google.de? Fehlanzeige! Der USB-Wireless-Adpater kommuniziert nicht mit dem Schulnetzwerk. Das bedeutet, wir haben keine aktive Internetverbindung. Der Adapter wird vom System erkannt, wird aber nicht in das bestehende Netzwerk eingebunden. Ahnungslosigkeit herrschte in unseren Köpfen. Wie bekommen wir es hin, dass der Raspberry Pi endlich eine Internetverbindung bekommt. Anfangs wurden wir durch das internet nicht schlauer, da wir leider nicht genau wussten, wonach wir suchen sollten. Aus diesem Grund fragten wir Herrn Buhl um Hilfe.
 Er löste unser Problem, indem er in der Datei „/etc/wpa_supplicant/wpa_supplicant.conf“ eine Änderung vornahm. 
 
 ![bsp DateiÄnderung ](Bildschirmfoto 2016-11-25 um 16.05.49.png)
 
 Der Inhalt dieser Datei wird beispielsweise auf dieser Internetseite beschrieben https://linux.die.net/man/5/wpa_supplicant.conf. 
 
-Durch die Änderung wurde ebenfalls eine in den IP-Netzwerkschnittstellen vorgenommen. Unsern Raspberry Pi wurde eine IP-Adresse zugewiesen. Wenn nun der Befehl „sudo_ wpa_supplicant -i plan -c /etc/wpa_supplicant/wpa_supplicant.conf“ in das Terminal eingeben wird, kommuniziert der Pi mit dem Wlan des Schulnetzes. Die Freude war groß, als wir die positive Nachricht erhalten haben!
+Durch die Änderung wurde ebenfalls eine in den IP-Netzwerkschnittstellen vorgenommen. Unserem Raspberry Pi wurde eine IP-Adresse zugewiesen. Wenn nun der Befehl „sudo_ wpa_supplicant -i plan -c /etc/wpa_supplicant/wpa_supplicant.conf“ in das Terminal eingeben wird, kommuniziert der Pi mit dem Wlan des Schulnetzes. Die Freude war groß, als wir die positive Nachricht erhalten haben!
 
 Wir wollten es gleich selber ausprobieren. Na toll… Wir haben keine Internetverbindung. Die Freude war von hundert auf null verschwunden. Was haben wir falsch gemacht. Herr Buhl meinte doch, es würde funktionieren. 
 
